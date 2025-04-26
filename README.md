@@ -32,6 +32,9 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![](images/part3/part3-install-extension.png)
 
+![imagen](https://github.com/user-attachments/assets/f0c6ccb7-128f-4c02-b96d-48bd4608480f)
+
+
 3. Despliegue la Function de Fibonacci a Azure usando Visual Studio Code. La primera vez que lo haga se le va a pedir autenticarse, siga las instrucciones.
 
 ![](images/part3/part3-deploy-function-1.png)
