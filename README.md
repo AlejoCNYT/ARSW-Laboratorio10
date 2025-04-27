@@ -41,6 +41,9 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![](images/part3/part3-deploy-function-2.png)
 
+![imagen](https://github.com/user-attachments/assets/ff0a38e4-f943-46dc-becb-2f57788905c6)
+
+
 4. Dirijase al portal de Azure y pruebe la function.
 
 ![](images/part3/part3-test-function.png)
