@@ -52,10 +52,20 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![imagen](https://github.com/user-attachments/assets/5bec231c-e356-4369-a603-abf011dc6628)
 
+![imagen](https://github.com/user-attachments/assets/2c698508-93b5-4879-8c98-d9ddfaae953c)
+
 
 4. Dirijase al portal de Azure y pruebe la function.
 
 ![](images/part3/part3-test-function.png)
+
+![imagen](https://github.com/user-attachments/assets/c0ad2ff8-9a6d-4ffc-b59a-4687f5dc62b1)
+
+![imagen](https://github.com/user-attachments/assets/be5544dd-435e-485e-8780-7a1af5df8e84)
+
+![imagen](https://github.com/user-attachments/assets/5269702b-bbdb-4ee2-8f14-5406a64bb5f3)
+
+![imagen](https://github.com/user-attachments/assets/052f55a1-7c90-4003-a11a-f520b6f03876)
 
 
 
