@@ -46,10 +46,18 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ![imagen](https://github.com/user-attachments/assets/ff0a38e4-f943-46dc-becb-2f57788905c6)
 
+![imagen](https://github.com/user-attachments/assets/8f8d25d8-6a1b-492b-ac76-d8c0158472ed)
+
+![imagen](https://github.com/user-attachments/assets/cddd704a-dc70-48d9-b1db-dd0c42ce9724)
+
+![imagen](https://github.com/user-attachments/assets/5bec231c-e356-4369-a603-abf011dc6628)
+
 
 4. Dirijase al portal de Azure y pruebe la function.
 
 ![](images/part3/part3-test-function.png)
+
+
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
