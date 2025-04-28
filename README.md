@@ -90,6 +90,9 @@ Después de 10 minutos
 
 ![imagen](https://github.com/user-attachments/assets/6f92784e-083b-4cc8-a251-a723b0567bbf)
 
+![imagen](https://github.com/user-attachments/assets/16fdffa1-3fbb-4a32-920a-eb9501942948)
+
+Tiende a disminuir cuando no se usa. Es estable para valores similares y toma picos en valores determinados. Puede fallar, en algunos casos tras bajo uso.
 
 
 **Preguntas**
