@@ -76,13 +76,42 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
 
+![imagen](https://github.com/user-attachments/assets/01a2b7e1-f4e2-4bb2-8188-d2d74397d781)
+
+![imagen](https://github.com/user-attachments/assets/9eef6d91-2606-47e3-80bb-f5d3f2f3a059)
+
+![imagen](https://github.com/user-attachments/assets/c0c4c6be-72a8-42db-b3d6-334bf9f016d5)
+
+Después de 10 minutos
+
+![imagen](https://github.com/user-attachments/assets/4f3ebbbf-9cc5-4ad7-a7f7-b4f498459628)
+
+![imagen](https://github.com/user-attachments/assets/4b70d4b5-e989-4f07-a1ec-ac3c8728669e)
+
+![imagen](https://github.com/user-attachments/assets/6f92784e-083b-4cc8-a251-a723b0567bbf)
+
+
+
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+- Es un servicio de computación serverless usado para ejecutar código (funciones) en respuesta a eventos (triggers) sin gestionar infraestructura. Su ejecución es basada en eventos (HTTP, colas, BD, etc), posee escalado autonático bajo demanda y soporte para múltiples lenguajes (C#, JS, Python, etc).
+
 * ¿Qué es serverless?
+- Es un modelo de ejecución en la nube caracterizado por esclado automático (sin configuación manual), no administración de servidores (el proveedor maneja la infraestructura) y pago por uso.
+
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+  - Es un entorno de ejecución que determina versión de lenguaje (Node.js 14, .NET 6, Python 3.9, etc), compatibilidad con bilbiotecas y SDKs y características disponibles (bindings y triggers). Su uso implica elección de runtime obsoleto (con features no disponibles) y, posible cambio de runtime después de la creación de la Function App.
+Implicaciones de seleccionarlo:
+  
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+- Esto se hace ya que almacena datos de configuración de funciones y claves de autorización, soporta triggers y bindings de colas, blobs y tablas con uso de Storage, gestión de escalado y coordinación de instancias múltiples en el plan de consumo.
+  
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
+![imagen](https://github.com/user-attachments/assets/ba4f42f3-c87f-4a9f-89f4-c95d66769fe1)
+  
 * ¿Por qué la memoization falla o no funciona de forma correcta?
+- La memorización puede perder efectividad debido a _Cold starts_ (Si la instancia se apaga por inactividad, la caché en memoria o memo se pierde), _Múltiples instancias_ (cada instancia tiene su propia caché y no se comparte entre ellas) y, el _tiiempo de vida_ (las instancias se reciclan periódicamente entre 20-30 minutos sin uso). Para evitar esto, se puede usar Azure Cache for Redis o Cosmos DB con caché persistente.
+  
 * ¿Cómo funciona el sistema de facturación de las Function App?
-* Informe
+- Se factura por número de ejecuciones y tiempo de ejecución (GB-segundos). En el plan Premium/App Service es según el Costo fijo por VM y las ejecuciones.
